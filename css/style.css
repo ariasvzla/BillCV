@@ -1,1 +1,45 @@
-this is a css file well it will be
+
+body {}
+#ww{float:right}
+#Nav a{
+     color: black; font-family: 'Bangers', cursive;
+	 font-size:40px;  margin-right: 40px;}
+#Nav a:hover {
+    color: red;
+    text-decoration: underline;
+}
+#im2 { float:right; margin-right:189px;}
+#hed { margin-left:370px; font-family: 'Tillana', cursive;  font-size:15px;color: red;}
+
+
+ .imageWrapper {
+        position: relative;
+        width: 30px;
+        height: 130px;
+    }
+    .imageWrapper img {
+        display: block;
+    }
+    .imageWrapper .cornerLink {
+        opacity: 0;
+        position: absolute;
+        bottom: 50px;
+        left: 60px;
+        padding: 2px 30px;
+        color: black;
+        background: none;
+        text-decoration: none;
+        text-align: center;
+        -webkit-transition: opacity 500ms;
+        -moz-transition: opacity 500ms;
+        -o-transition: opacity 500ms;
+        transition: opacity 500ms;
+		font-family: 'Francois One', sans-serif;
+		
+    }
+    .imageWrapper:hover .cornerLink {
+        opacity: 0.8;
+    }
+	
+	
+	#man {margin-left:-674px;margin-top:45px;}
